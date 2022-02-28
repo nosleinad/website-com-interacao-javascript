@@ -1,0 +1,101 @@
+ :root {
+    --green: #03e461;
+    --white: #fff;
+    --black: #000;
+    
+}
+
+* {
+    color: var(--fontColor);
+    font-family: helvetica;
+}
+
+body {
+    background: var(--bg); 
+    text-align: center;
+    
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;   
+    
+}
+
+.box {
+    width: 300px;
+    height: 300px;
+    border: 3px solid;
+    padding: 20px;
+    border-radius: 10px;
+       
+}
+
+.btn {
+    color: var(--btnFontColor);
+    background-color: var(--btnBg);
+} 
+
+ul {
+    font-family: helvetica;
+}
+
+li {
+    list-style: circle;
+}
+
+.list {
+    list-style: square;
+}
+
+.light-theme {
+    --bg: var(--green);
+    --fontColor: var(--black);
+    --btnBg: var(--black);
+    --btnFontColor: var(--white);
+    --btnBgColor: var(--grey);
+}
+
+
+.dark-theme {
+    --bg: var(--black);
+    --fontColor: var(--green);
+    --btnBg: var(--white);
+    --btnFontColor: var(--black); 
+    --btnBgColor: var(--darkGray);
+}
+
+.btn {
+    
+    top: 20px;
+    left: 250px;
+    height: 100px;
+    width: 100px;
+    border-radius: 15%;
+    border: none;
+    color: var(--btnFontColor);
+    background-color: var(--btnBg);
+    cursor: pointer; 
+    font-weight: bold;
+    font-size: 25px;
+    text-decoration: none;  
+
+}
+
+.botao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 10%;
+
+}
+
+
+
+
+
